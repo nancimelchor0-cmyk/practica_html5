@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Spotify</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <h1>Musica</h1>
+            <p>Práctica 1 Sub 2</p>
+        </header>
+
+        <section class="perfil">
+            <h2>Alumno</h2>
+            <p>Nanci Sanchez</p>
+        </section>
+
+        <nav class="menu">
+            <button onclick="mostrarSeccion('inicio')">Inicio</button>
+            <button onclick="mostrarSeccion('Canciones')">Canciones</button>
+            <button onclick="mostrarSeccion('Canciones Fav')">Canciones Fav</button>
+        </nav>
+
+        <main>
+            <section id="inicio" class="seccion activa">
+                <h2>Bienvenido</h2>
+                <p>Esta app muestra información musical y sus artistas.</p>
+                <div class="card">
+                     <h3>Musica electronica</h3>
+                    <img src="img/spotify.jpeg" alt="inicio">
+                    <p>Avicci,Mashmello</p>
+                    <p>Mashmello</p>
+                    <p>Dorian</p>
+                    <p>Martin Garrix</p>
+                </div>
+            </section>
+
+            <section id="Canciones" class="seccion">
+                <div class="card">
+                    <h2>Canciones</h2>
+                     <img src="img/Aviccii.jpg" alt="canciones">
+                    <h3>Avicci</h3>
+                    <p>Hey brother</p>
+                </div>
+                <div class="card">
+                    <h3>Marshmello</h3>
+                     <img src="img/marsmelloo.jpg" alt="canciones">
+                    <p>Happier</p>
+                </div>
+                <div class="card">
+                    <h3>Dorian</h3>
+                    <img src="img/Doriann.jpg" alt="canciones">
+                    <p>Tormenta de arena </p>
+                </div>
+                 <div class="card">
+                    <h3>Martin Garrix</h3>
+                     <img src="img/martin garrixx.jpg" alt="canciones">
+                    <p>High On Life</p>
+                </div>
+            </section>
+
+            <section id="Canciones Fav" class="seccion">
+                <h2>Canciones Fav</h2>
+                <div class="card">
+                    <p>Hey brother, The nighs</p>
+                    <p>Tormenta de arena,Paraisos Artificilaes, Algo especial</p>
+                    <p>Happier,Alone,Silence</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <span></span>
+            <span> </span>
+            <span></span>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

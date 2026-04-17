@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -20,7 +20,7 @@ body {
     margin: 20px auto;
     padding: 30px;
     max-width: 800px;
-    text-align: left; /* Alinea el texto a la izquierda dentro de las cards */
+    text-align: left; 
 }
 
 .card h2 {
@@ -31,7 +31,7 @@ body {
 .card img {
     max-width: 100%;
     height: auto;
-    display: block; /* Para que la imagen ocupe su propio espacio */
+    display: block; 
     margin-bottom: 20px;
     border-radius: 4px;
 }
@@ -55,9 +55,9 @@ body {
     margin-top: 0;
 }
 
-/* Header */
+
 .header {
-    background-color: #16a085; /* Color verde saludable */
+    background-color: #16a085; 
     color: white;
     padding: 15px 20px;
     display: flex;
@@ -72,10 +72,10 @@ body {
 }
 
 .header .logo img {
-    width: 50px; /* Tamaño del logo */
+    width: 50px; 
     height: 50px;
     margin-right: 15px;
-    border-radius: 50%; /* Para hacerlo circular si es necesario */
+    border-radius: 50%;
 }
 
 .header .logo h1 {
@@ -98,12 +98,12 @@ body {
 }
 
 .nav a:hover {
-    color: #f1c40f; /* Color amarillo para hover */
+    color: #f1c40f; 
 }
 
-/* Hero Section */
+
 .hero {
-    background-color: #e0f7fa; /* Un azul claro suave */
+    background-color: #e0f7fa; 
     padding: 80px 20px;
     display: flex;
     justify-content: space-between;
@@ -116,7 +116,7 @@ body {
 }
 
 .hero-texto .badge {
-    background-color: #f1c40f; /* Amarillo */
+    background-color: #f1c40f; 
     color: #333;
     padding: 5px 15px;
     border-radius: 20px;
@@ -137,7 +137,7 @@ body {
 }
 
 .btn {
-    background-color: #16a085; /* Verde */
+    background-color: #16a085; 
     color: white;
     padding: 12px 25px;
     text-decoration: none;
@@ -147,17 +147,17 @@ body {
 }
 
 .btn:hover {
-    background-color: #12876d; /* Verde más oscuro */
+    background-color: #12876d; 
 }
 
 .hero-imagen img {
-    max-width: 450px; /* Ajusta el tamaño de la imagen del hero */
+    max-width: 450px; 
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 
-/* Formularios */
+
 .demo-form {
     margin-top: 30px;
     padding: 20px;
@@ -176,7 +176,7 @@ body {
 .demo-form input[type="text"],
 .demo-form input[type="email"],
 .demo-form textarea {
-    width: calc(100% - 20px); /* Ajusta para el padding */
+    width: calc(100% - 20px); 
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -185,11 +185,11 @@ body {
 }
 
 .demo-form textarea {
-    resize: vertical; /* Permite redimensionar verticalmente */
+    resize: vertical; 
 }
 
 .demo-form button {
-    background-color: #f1c40f; /* Amarillo */
+    background-color: #f1c40f; 
     color: #333;
     padding: 10px 20px;
     border: none;
@@ -200,19 +200,19 @@ body {
 }
 
 .demo-form button:hover {
-    background-color: #e6b400; /* Amarillo más oscuro */
+    background-color: #e6b400; 
 }
 
-/* Footer */
+
 .footer {
-    background-color: #2c3e50; /* Azul oscuro */
+    background-color: #2c3e50; 
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
 }
 
-/* Estilos para listas y otros elementos dentro de cards */
+
 .card ul {
     list-style: disc;
     margin-left: 20px;
@@ -224,10 +224,9 @@ body {
 }
 
 .card strong {
-    color: #16a085; /* Verde para destacar */
+    color: #16a085; 
 }
 
-/* Responsive Design (Ejemplo básico) */
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
@@ -250,6 +249,6 @@ body {
         margin-bottom: 30px;
     }
     .hero-imagen img {
-        max-width: 80%; /* Ajusta la imagen en pantallas pequeñas */
+        max-width: 80%; 
     }
 }

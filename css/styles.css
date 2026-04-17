@@ -110,7 +110,7 @@ body {
 }
 
 .hero-texto {
-    max-width: 550px;
+    max-width: 50px;
 }
 
 .hero-texto .badge {
@@ -149,7 +149,7 @@ body {
 }
 
 .hero-imagen img {
-    max-width: 450px; 
+    max-width: 50px; 
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
@@ -223,7 +223,7 @@ body {
 .card strong {
     color: #16a085;
 
-@media (max-width: 768px) {
+@media (max-width: 50px) {
     .header {
         flex-direction: column;
         text-align: center;

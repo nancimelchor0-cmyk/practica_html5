@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -28,7 +29,7 @@ body {
 }
 
 .card img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     display: block; 
     margin-bottom: 20px;
@@ -100,6 +101,7 @@ body {
     color: #f1c40f; 
 }
 
+
 .hero {
     background-color: #e0f7fa; 
     padding: 80px 20px;
@@ -110,7 +112,7 @@ body {
 }
 
 .hero-texto {
-    max-width: 50px;
+    max-width: 550px;
 }
 
 .hero-texto .badge {
@@ -198,8 +200,9 @@ body {
 }
 
 .demo-form button:hover {
-    background-color: #e6b400; 
+    background-color: #e6b400;
 }
+
 
 .footer {
     background-color: #2c3e50; 
@@ -221,9 +224,11 @@ body {
 }
 
 .card strong {
-    color: #16a085;
+    color: #16a085; 
+}
 
-@media (max-width: 50px) {
+
+@media (max-width: 768px) {
     .header {
         flex-direction: column;
         text-align: center;
@@ -246,5 +251,4 @@ body {
     }
     .hero-imagen img {
         max-width: 50%; 
-    }
 }

@@ -28,7 +28,7 @@ body {
 }
 
 .card img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     display: block; 
     margin-bottom: 20px;
@@ -174,7 +174,7 @@ body {
 .demo-form input[type="text"],
 .demo-form input[type="email"],
 .demo-form textarea {
-    width: calc(100% - 20px); 
+    width: calc(50% - 20px); 
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
